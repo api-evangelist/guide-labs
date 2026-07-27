@@ -1,8 +1,17 @@
 aid: guide-labs
 name: Guide Labs
-description: 'Guide Labs is a company surfaced as a portfolio company of initialized-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: enterprise-saas. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Guide Labs is a product-focused AI research company building a new class of
+  inherently interpretable AI systems and foundation models that humans and
+  domain experts can reliably understand, steer, and debug. Its flagship
+  platform, Clarity, is presented as the first inherently interpretable AI
+  platform and surfaces the internal concepts driving a model's decisions, while
+  its Steerling-8B is presented as the first inherently interpretable large
+  language model. The team has published more than two dozen interpretability
+  papers at top machine-learning venues and ships research artifacts such as
+  PRISM training-data prototypes, the FineWeb Concept Atlas, and Atlas for
+  orienting LLM pre-training data. Access to Clarity is available through
+  platform.guidelabs.ai. The company is backed by Initialized Capital.
 url: https://raw.githubusercontent.com/api-evangelist/guide-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +19,31 @@ x-backed-by:
 - initialized-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.guidelabs.ai/logo/guidelabs-social-media-thumbnail.png
 tags:
 - Company
 - Enterprise Saas
+- Artificial Intelligence
+- Interpretability
+- Machine Learning
+- Foundation Models
+- Large Language Models
+- AI Safety
+- Research
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +51,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/guide-labs-domain-security.yml
+- type: LLMsTxt
+  url: llms/guide-labs-llms.txt
 - type: Website
   url: https://www.guidelabs.ai/
+- type: Login
+  url: https://platform.guidelabs.ai/
+- type: Blog
+  url: https://www.guidelabs.ai/blog/
+- type: About
+  url: https://www.guidelabs.ai/about-us/
+- type: PrivacyPolicy
+  url: https://www.guidelabs.ai/privacy-notice/
+- type: GitHubOrganization
+  url: https://github.com/guidelabs
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
