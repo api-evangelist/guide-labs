@@ -50,7 +50,7 @@ tags:
 - Enterprise Saas
 - Artificial Intelligence
 - Interpretability
-- Machine-Learning
+- Machine Learning
 - Foundation Models
 - LLM
 - AI Safety
@@ -65,6 +65,7 @@ tags_raw:
 - Large Language Models
 - AI Safety
 - Research
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
